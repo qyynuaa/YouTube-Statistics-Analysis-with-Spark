@@ -156,12 +156,12 @@ def goToLeafLayer(input_queue,youtube,cursor,db,f):
 	
 def main():
   # my code here
-  KEYS =["AIzaSyAOBdqXlr4wxFU4vlzYXqHonB8Wn0dG7bY","AIzaSyBDhjab1cT1GS7Bm5L3yt7GTb3C-X9-CSo",
-                 "AIzaSyBtX-HPEtBHbiT2xSmnME84fDuexZtezNM","AIzaSyAli50wh5xgKyuFc0CmJABXtxJk7a3tbWs",
-		 "AIzaSyBBOZom7Tph_BzcScI905vI9W9anu6URZ0","AIzaSyDbCcpV8w7pOpacsdjdYTD0Ysh_DFyPgQs",
-		 "AIzaSyDwpYRmE8CUVwU7nN3CvHzb8AaPv3R2f0Q","AIzaSyB0Ci1K6LK9SoLMarK4nZiKG8u_QQZivPA",
-		 "AIzaSyA0qXKPDamaX3pgFmOv5qGOhKUuMfl5qAs","AIzaSyAP4myIa3S0fejIdbOl5xonfJctLpuWj9c",
-                 "AIzaSyB-ciwiXOoono2jIzpghS4iKs0KtXglPvs"]
+  KEYS =["AIzaSyAOBdqXlr4wxFU4vlzY0dG7bY","AIzaSyBDhjab1cT1GSm5L3yt7GTb3C-X9-CSo",
+                 "AIzaSyBtX-HPEtBHbiT2xSmnME84fDuxZtezNM","99",
+		 "AIzaSyBBOZom7Tph_BzcScZ0","AIzaSyDbCcpV8w7pOpacs0Ysh_DFyPgQs",
+		 "AIzaSyDwpYRmE8CUVwU7nN0Q","AIzaSyB0Ci1K6rK4nZiKG8u_QQZivPA",
+		 "AIzaSyA0qXKPDamaX3pgFmOv5qGs","AIzaSyAP4myIa3S0fejctLpuWj9c",
+                 "AIzaSyB-ciwiXOoono2jIzpglPvs"]
   DEVELOPER_KEY = KEYS[0] 
   YOUTUBE_API_SERVICE_NAME = "youtube"
   YOUTUBE_API_VERSION = "v3"
@@ -171,7 +171,7 @@ def main():
   depth = 2
   
   # Open database connection
-  db = MySQLdb.connect("localhost","qyy","000000","testdb" )
+  db = MySQLdb.connect("localhost","qyy","password","testdb" )
   cursor = db.cursor()
   # Drop table if it already exist using execute() method.
   #cursor.execute("DROP TABLE IF EXISTS VIDEO")
