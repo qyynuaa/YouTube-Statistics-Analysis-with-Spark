@@ -6,7 +6,7 @@ We are trying to answer the following questions.
 
 1. How to get the video info from YouTube?
 
-2. How to analysis the data via spark?
+2. How to analyze the data via spark?
 
 3. What is the statistics of YouTube videos?
 
