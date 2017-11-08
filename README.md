@@ -1,7 +1,9 @@
 # YouTube Statistics Analysis with Spark
 
 In this work, we perform a measurement study of the statistics YouTube videos with Spark in 2017. Previouse work [4] is out-of-date. We also develop a tool to get video data from YouTube server using the latest YouTube API. 
-![Screenshot](pic/platform.png)
+
+![alt tag](pic/platform.png)
+
 We are trying to answer the following questions.
 
 1. How to get the video info from YouTube?
