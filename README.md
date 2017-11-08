@@ -2,6 +2,16 @@
 
 In this work, we perform a measurement study of the statistics YouTube videos with Spark in 2017. Previouse work [4] is out-of-date. We also develop a tool to get video data from YouTube server using the latest YouTube API. 
 
+We are trying to answer the following questions.
+
+1. How to get the video info from YouTube?
+
+2. How to analysis the data via spark?
+
+3. What is the statistics of YouTube videos?
+
+4. What is the relationship among YouTube video metrics?
+
 First, we build a platform with YouTube API (v3) to collect the video information from YouTube server. Next we analyze those data via spark. Then we got statistics features of YouTube video and user behaviors. Finally, we analyze the relationship between YouTube metrics. We found that there is linear relation among like, dislike and comments.
 
 The source code include the YouTube data crawler in python and data processing script with Spark.
